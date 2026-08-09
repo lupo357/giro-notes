@@ -13,3 +13,7 @@ python3 totals.py examples/week.csv
 ```
 
 The example rows are made up. Amounts are in euros.
+
+## Elsewhere
+
+Other things I tinker with: [my personal page](https://weathered-voice-bf5e.robertomacaroni574.workers.dev/).
