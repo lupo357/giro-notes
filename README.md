@@ -14,6 +14,6 @@ python3 totals.py examples/week.csv
 
 The example rows are made up. Amounts are in euros.
 
-## Elsewhere
+## Notes
 
-Other things I tinker with: [my personal page](https://weathered-voice-bf5e.robertomacaroni574.workers.dev/).
+See [the sheet format](notes/format.md) before adding rows.
