@@ -8,5 +8,7 @@ parser.add_argument('csv_file')
 args = parser.parse_args()
 with open(args.csv_file, newline='', encoding='utf-8') as source:
     rows = csv.DictReader(source)
+    if not rows.fieldnames or 'amount' not in rows.fieldnames:
+        parser.error('CSV must contain an amount column')
     total = sum((Decimal(row['amount']) for row in rows if row['amount'].strip()), Decimal('0'))
 print(f'Total: {total:.2f} EUR')
