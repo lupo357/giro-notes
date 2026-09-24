@@ -14,6 +14,8 @@ python3 totals.py examples/week.csv
 
 The example rows are made up. Amounts are in euros.
 
+Expected total for the example: `200.50 EUR`.
+
 ## Notes
 
 See [the sheet format](notes/format.md) before adding rows.
